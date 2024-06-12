@@ -1,0 +1,470 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.logoimg {
+    height: 50px;
+}
+
+.middle-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.middle-buttons button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.middle-buttons button a {
+    color: black;
+    text-decoration: none;
+}
+
+.middle-buttons button:hover {
+    background-color: orange;
+    color: orange;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-side input[type="text"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+.right-side a img {
+    height: 30px;
+}
+
+.search{
+    background-color: rgb(231, 206, 159);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* navigation ended */
+
+
+
+/* main started */
+
+.rounded-rectangle {
+    width: 100px;
+    height: 25px;
+    background-color: #F5DDC4;
+    border-radius: 25px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    position: relative;
+}
+
+.circle-bike {
+    width: 25px;
+    height: 25px;
+    /* background-color: coral; */
+    border-radius: 50%;
+    position: absolute;
+    left: 75px;
+}
+
+.rrtext {
+  font-size: 4px;
+  position: relative;
+  left: 20px;
+  top: 3px;
+  color: orange;
+}
+
+.mainheading{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase
+
+
+}
+.hiiamges{
+    width: 90px;
+    height: auto;
+}
+
+.hiiamges1{
+    width: 100px;
+    height: auto;
+}
+
+
+
+
+.headimagecard
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 250px; /* Space between images */
+    /* padding: 10px; */
+}
+
+.headcard{
+    display: flex;
+    flex-direction: space-between;
+    gap: 95px;
+}
+
+
+
+
+
+
+
+.card {
+    width: 215px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(255, 89, 0);
+    
+}
+
+.card-content {
+    padding: 10px;
+   
+
+}
+.card-title {
+    font-size: 15px;
+}
+.card-text {
+    font-size: 10px;
+    color: #555;
+}
+
+.cimage{
+    width: 150px;
+    height: auto;
+}
+
+.headpara{
+    font-size: 10px;
+}
+
+.button-rounded {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    border-radius: 8px; /* Adjust the radius as desired */
+    margin-top: 5px;
+}
+
+.himage-container {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%; /* Make it round */
+    /* overflow: hidden; Hide any overflow from the image */
+    box-shadow: 0 3px 6px rgb(255, 132, 0); /* Add a shadow */
+    position: absolute;
+    margin-left: 150px;
+}
+
+.himage-containerimg {
+    width: 25px;
+    height: auto;
+    display: block;
+    position: relative;
+    left: 13px;
+    top: 11px;
+}
+
+.bpto{
+display: flex;
+flex-direction: row;
+gap:90px;
+
+}
+
+.headtextr
+{
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.headarrowimg{
+    width: 195px;
+    height: auto;
+}
+.headarrow{
+    margin-top: 95px;
+    margin-left: -75px;
+}
+
+
+
+
+
+/* second section */
+
+
+.imagetext
+{
+    display: flex;
+    gap: 145px;
+    margin-left: 55px;
+}
+.spimg{
+    width: 15px;
+    height: auto;
+}
+
+.sptext1{
+    font-size: 12px;
+}
+
+.secondtext{
+    margin-left: 5px;
+    font-size: 8px;
+}
+
+
+
+
+
+
+/* second section ends */
+
+
+
+/* fourth section starts  */
+
+.headimagecardfourth
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 195px; /* Space between images */
+    /* padding: 10px; */
+    margin-left: 125px;
+}
+/* fourth sectoin ends */
+
+
+/* fifth section starts */
+
+.fifth-text{
+    /* text-align: center; */
+    font-size: 10px;
+    margin-left: 27px;
+    margin-top: -3px;
+    /* margin-bottom: 3px; */
+}
+
+
+.round-rect-button {
+    background-color: orange; /* Green background */
+    border: none; /* Remove borders */
+    color:  black; /* White text */
+    padding: 15px 32px; 
+    /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Increase font size */
+    /* margin: 4px 2px; Some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+.round-rect-button:hover {
+    background-color: rgb(159, 76, 34); /* Darker green */
+}
+
+/* fifth section ends */
+
+
+
+/* sixth starts  */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.meal-option {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.meal-option h2 {
+    text-align: center;
+    color: #333;
+}
+
+.option {
+    margin-top: 20px;
+}
+
+.option h3 {
+    color: orange;
+    font-size: 15px
+}
+
+.option p {
+    color: #555;
+    font-size: 10px
+}
+
+.meal-option:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgb(255, 98, 0);
+}
+
+
+/* sixth ends */
+
+
+
+/* seventh starts */
+
+.subs{
+    display: flex;
+    gap: 5px;
+    flex-direction:column;
+
+}
+
+.rrelement{
+    display: flex;
+    gap: 200px;
+    margin-left: 250px;
+    margin-top: 35px;
+}
+
+
+/* seventh ends */
+
+
+
+
+
+
+/* main ended */
+
+
+
+footer.footer {
+    width: 100%;
+    background-color: rgb(255, 68, 0);
+    color: rgb(24, 23, 23);
+    padding: 20px 0;
+    /* position: relative; */
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+}
+
+.footer-section h3 {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.footer-section p {
+    margin: 10px 0;
+}
+
+.social-media {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-media a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .middle-buttons {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .right-side {
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+
+    .headcard{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+

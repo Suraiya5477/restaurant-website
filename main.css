@@ -1,0 +1,56 @@
+.mainc{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position:absolute;
+}
+
+.rrcontainer{
+position: relative;
+
+}
+
+
+.second{
+    position: relative;
+    top: 200px;
+}
+
+.third{
+    position: relative;
+    top: 275px;
+    margin-left: 485px;
+}
+
+.fourth{
+    position: relative;
+    top: 350px;
+    /* margin-left: 490px; */
+}
+
+.fifth{
+    position: relative;
+    top: 515px;
+    margin-left: 455px;
+}
+
+
+.sixth
+{
+    position: relative;
+    top: 590px;
+    /* margin-left: 455px; */
+}
+
+.seventh{
+    position: relative;
+    top: 665px;
+    /* margin-left: 455px; */
+}
+
+.footer{
+    position: relative;
+    top: 2500px;
+    /* margin-left: 455px; */
+}
